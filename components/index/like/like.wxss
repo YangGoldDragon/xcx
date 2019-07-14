@@ -1,0 +1,21 @@
+/* components/like/like.wxss */
+
+.container-like {
+  width: 60rpx;
+  height: 50rpx;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.like {
+  width: 32rpx;
+  height: 28rpx;
+}
+
+.num {
+  font-size: 20rpx;
+  position: absolute;
+  top: 0;
+  right: 0;
+}

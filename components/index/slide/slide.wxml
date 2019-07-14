@@ -1,0 +1,6 @@
+<!--components/index/slide/slide.wxml-->
+<view class="slide-conotainer">
+  <image src="./images/left.png" class="left" bind:tap="slideLeft"></image>
+  <text class="title">{{movie[movieIndex].title}}</text>
+  <image src="./images/right.png" class="right" bind:tap="slideRight"></image>
+</view>

@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "like": "/components/index/like/like",
+    "movie": "/components/index/movie/movie",
+    "date": "/components/index/date/date",
+    "slide": "/components/index/slide/slide",
+    "share": "/components/index/share/share"
+  }
+}

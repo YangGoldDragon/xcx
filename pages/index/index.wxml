@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="index-container">
+  <view class="header">
+    <date date="{{date}}"></date>
+    <view class="header-right">
+        <like isLike="{{isLike}}" num="{{num}}"></like>
+        <share class="share"></share>
+    </view>
+  </view>
+  <movie movie="{{movie}}" movieIndex="{{movieIndex}}"></movie>
+  <slide movie="{{movie}}" bind:slideLeft="handleLeft" bind:slideRight="handleRight" newMovieIndex="{{movieIndex}}"></slide>
+</view>

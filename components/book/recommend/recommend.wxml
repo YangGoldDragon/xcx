@@ -1,0 +1,11 @@
+<!--components/book/recommend/recommend.wxml-->
+<view class="recommend-container">
+  <text class="title">精选</text>
+  <view wx:for="{{recommend}}" wx:key="index">
+    <view class="recommend-per">
+      <image src="{{item.imgUrl}}" class="recommend-per-image" mode="widthFix"></image>
+      <text class="recommend-per-name">{{item.name}}</text>
+      <text class="recommend-per-price">￥{{item.price}}</text>
+    </view>
+  </view>
+</view>

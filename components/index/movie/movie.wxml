@@ -1,0 +1,6 @@
+<!--components/index/movie/movie.wxml-->
+<view class="movie-container">
+  <image src="{{movie[movieIndex].image}}" class="easymock"></image>
+  <image src="{{icons[movieIndex]}}" class="movie" mode="widthFix"></image>
+  <text class="text">{{movie[movieIndex].content}}</text>
+</view>

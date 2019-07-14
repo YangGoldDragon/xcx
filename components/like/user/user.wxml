@@ -1,0 +1,23 @@
+<!--components/like/user/user.wxml-->
+<view class="user-container">
+  <image src="./images/my@bg.png" class="mybg" mode="widthFix"></image>
+  <view class="button" wx:if="{{authStatus}}">
+    <image class="button-image" src="{{image}}"></image>
+  </view>
+  <text class="button-text" wx:if="{{authStatus}}">{{name}}</text>
+
+  <button class="button" wx:if="{{!authStatus}}" plain="true" open-type="getUserInfo" bindgetuserinfo="handleGetUserInfo">
+    <image class="button-image" src="./images/my.png"></image>
+  </button>
+
+  <view class="about">
+    <view class="about-bar">
+      <image src="./images/about.png" class="about-bar-image" mode="widthFix"></image>
+      <text class="about-bar-text">关于我们</text>
+    </view>
+    <view class="collection-bar">
+      <text class="collection-bar-num">161</text>
+      <text class="collection-bar-text">我的收藏</text>
+    </view>
+  </view>
+</view>

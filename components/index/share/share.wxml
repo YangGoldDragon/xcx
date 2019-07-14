@@ -1,0 +1,4 @@
+<!--components/index/share/share.wxml-->
+<button open-type="share" class="button">
+  <image src="./images/share.png" class="button-image" mode="widthFix"></image>
+</button>

@@ -1,0 +1,47 @@
+/* components/index/date/date.wxss */
+
+.date-container {
+  display: flex;
+  height: 30px;
+  align-items: flex-end;
+}
+
+.no {
+  line-height: 1;
+  margin-bottom: -2px;
+}
+
+.line {
+  height: 100%;
+  border-right: 3px solid black;
+  padding-right: 5px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.index {
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 1;
+  margin-bottom: -3px;
+}
+
+.date {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+  align-items: flex-end;
+}
+
+.month {
+  font-size: 14px;
+  padding-bottom: 3px;
+}
+
+.year {
+  width: 100%;
+  line-height: 1;
+  font-size: 10px;
+  margin-bottom: -1px;
+  text-align: center;
+}

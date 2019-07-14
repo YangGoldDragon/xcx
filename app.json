@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/book/book",
+    "pages/like/like"
+  ],
+  "tabBar": {
+    "borderStyle": "black",
+    "selectedColor": "#000000",
+    "backgroundColor": "#ffffff",
+    "color": "#c7c7c7",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "流行",
+        "iconPath": "components/tabBar/index.png",
+        "selectedIconPath": "components/tabBar/index@highlight.png"
+      },
+      {
+        "pagePath": "pages/book/book",
+        "text": "书单",
+        "iconPath": "components/tabBar/book.png",
+        "selectedIconPath": "components/tabBar/book@highlight.png"
+      },
+      {
+        "pagePath": "pages/like/like",
+        "text": "喜欢",
+        "iconPath": "components/tabBar/like.png",
+        "selectedIconPath": "components/tabBar/like@highlight.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "龙你太美",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

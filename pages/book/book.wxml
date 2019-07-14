@@ -1,0 +1,5 @@
+<!--pages/book/book.wxml-->
+<view class="book-container">
+  <search></search>
+  <recommend recommend="{{recommend}}"></recommend>
+</view>

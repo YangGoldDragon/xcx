@@ -1,0 +1,28 @@
+/* components/index/movie/movie.wxss */
+
+.movie-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.easymock {
+  display: flex;
+  width: 750rpx;
+  height: 500rpx;
+}
+
+.movie {
+  width: 46rpx;
+  position: absolute;
+  top: 440rpx;
+  left: 50rpx;
+}
+
+.text {
+  margin-top: 100rpx;
+  font-size: 36rpx;
+  max-width: 550rpx;
+}

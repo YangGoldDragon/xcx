@@ -1,0 +1,26 @@
+/* components/index/slide/slide.wxss */
+
+.slide-conotainer {
+  width: 600rpx;
+  height: 80rpx;
+  background-color: #f7f7f7;
+  border-radius: 2px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 60rpx auto;
+  padding: 0 20rpx;
+}
+
+.left, .right {
+  height: 40rpx;
+  width: 40rpx;
+  padding: 20rpx;
+}
+
+.title {
+  height: 80rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
